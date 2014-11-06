@@ -13,6 +13,7 @@ Ohai.plugin(:Proxmox) do
       if network["interfaces"]["venet0:0"]
         network["interfaces"]["venet0:0"]["addresses"].each do |ip, params|
           if params['family'] == ('inet')
+            Ohai::Log.info "Updating node ipaddress: #{ip}"
             proxmox[:ipaddress] = ip
             ipaddress ip
           end
