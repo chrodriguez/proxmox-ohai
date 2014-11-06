@@ -1,9 +1,9 @@
 name             'proxmox-ohai'
-maintainer       'YOUR_NAME'
-maintainer_email 'YOUR_EMAIL'
+maintainer       'Christian A. Rodriguez'
+maintainer_email 'car@cespi.unlp.edu.ar'
 license          'All rights reserved'
-description      'Installs/Configures proxmox-ohai'
-long_description 'Installs/Configures proxmox-ohai'
+description      'Captures ipaddress from proxmox container'
+long_description  IO.read(File.join(File.dirname(__FILE__), 'README.md')
 version          '0.1.2'
 
 depends 'ohai',            '~> 2.0'

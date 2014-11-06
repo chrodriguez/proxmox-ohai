@@ -8,7 +8,7 @@ venet0:0
 
 ## Usage
 
-Add recipe `proxmox-ohai` to your runlist
+Add recipe `proxmox-ohai` first at to your runlist
 
 
 ## Contributing
