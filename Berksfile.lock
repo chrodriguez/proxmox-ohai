@@ -1,0 +1,9 @@
+DEPENDENCIES
+  proxmox-ohai
+    path: .
+    metadata: true
+
+GRAPH
+  ohai (2.0.1)
+  proxmox-ohai (0.1.2)
+    ohai (~> 2.0)
